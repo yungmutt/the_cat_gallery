@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Cat Gallery</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="cats.html">Cats</a></li>
+    <li><a href="about.html">About</a></li>
+</ul>
+<div class="breed">Maine Coon</div>
+
+<div class="container">
+    <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="maine%20coon/charming-maine-coon-face-photo-1900728890.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="maine%20coon/fullsizeoutput_2b62-3321837716.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="maine%20coon/Maine+Coon+Cat+Wallpapers+4-2487374206.jpeg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="maine%20coon/maine-coon-2-3300899732.png" style="width:100%">
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="row">
+        <div class="column">
+            <img class="demo cursor" src="maine%20coon/charming-maine-coon-face-photo-1900728890.jpeg" style="width:100%" onclick="currentSlide(1)">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="maine%20coon/fullsizeoutput_2b62-3321837716.jpeg" style="width:100%" onclick="currentSlide(2)">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="maine%20coon/Maine+Coon+Cat+Wallpapers+4-2487374206.jpeg" style="width:100%" onclick="currentSlide(3)">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="maine%20coon/maine-coon-2-3300899732.png" style="width:100%" onclick="currentSlide(4)">
+        </div>
+    </div>
+</div>
+
+<div class="cat-info">
+    <table>
+        <tr>
+            <td style="font-weight: bold">Origin:</td>
+            <td>The USA</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold">Size:</td>
+            <td>Large to Largest</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold">Life span:</td>
+            <td>12-15 years</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold">Weight:</td>
+            <td>Males: 15-25 pounds</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Females: 8-12 pounds</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold">Colours:</td>
+            <td>Blue, black, white, gray, silver</td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold">Price:</td>
+            <td>$1200-2000</td>
+        </tr>
+    </table>
+</div>
+
+<div class="general-desc">
+    <header style="font-weight: bold; font-size: 35px; padding-top: 10%">General description</header>
+    <p style="font-size: 25px">
+        Maine Coons are kittens in big cat suits, gentle giants who are playful well into old age, as well as jumbo-sized packages of loving devotion.
+        Maine Coons can also be reserved around people with whom they’re not familiar, probably due to their jumbo-sized brains.
+        Given time, however, even the most cautious adapt.
+        This initial adjustment period is actually a decision-making process; Maine Coons are deciding if these new humans have proven themselves worthy of trust.
+        As soon as they make up their minds, however, they form close bonds with the entire household and become loving and devoted.
+    </p>
+</div>
+
+
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,225 @@
+body {
+    background: rgb(222, 91, 132);
+    background: -moz-radial-gradient(circle, rgba(222, 91, 132, 1) 0%, rgba(203, 119, 72, 1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(222, 91, 132, 1) 0%, rgba(203, 119, 72, 1) 100%);
+    background: radial-gradient(circle, rgba(222, 91, 132, 1) 0%, rgba(203, 119, 72, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#de5b84", endColorstr="#cb7748", GradientType=1);
+    margin: auto;
+    width: auto;
+    height: 1220px;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-family: "URW Gothic";
+    font-size: 100px;
+    -webkit-text-fill-color: rosybrown;
+    -webkit-text-stroke: 5px;
+}
+
+#CBimage{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 620px;
+    width: 200px;
+}
+
+#ABimage{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 620px;
+    width: 200px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a27867;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "URW Gothic";
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+div.gallery{
+    margin: 15px;
+    border: 1px solid #a27870;
+    float: left;
+    width: 350px;
+    font-family: "URW Gothic";
+}
+div.gallery:hover{
+    border: 1px solid #777;
+}
+div.gallery img{
+    width: 100%;
+    height: auto;
+}
+h2{
+    font-family: "URW Gothic";
+    padding-left: 5%;
+    font-size: 40px;
+}
+p{
+    font-family: "URW Gothic";
+    padding-right: 20%;
+    padding-left: 5%;
+    font-size: 25px;
+}
+
+.general-desc{
+    font-family: "URW Gothic";
+    margin-top: -50px;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+.breed{
+    font-size: 50px;
+    font-family: "URW Gothic";
+    font-weight: bold;
+    margin-left: 35%;
+    margin-top: 2%;
+    margin-bottom: -2%;
+}
+
+.cat-info{
+    margin-left: 10%;
+    display: inline-block;
+}
+td{
+    font-family: "URW Gothic";
+    padding: 13px;
+}
+tr:nth-child(even) {
+    background-color: darksalmon;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border:none;
+}
+/*slideshow*/
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    box-sizing: border-box;
+    position: relative;
+    width: 30%;
+    height: 30%;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: inline-block;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+button:hover{
+    color: #f2f2f2;
+    background-color: #222222;
+}
+
+footer{
+
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+/*@media (max-width: 1000px) {*/
+/*}*/
+
